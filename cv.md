@@ -28,3 +28,17 @@ I am a hardworking and motivated person who wants to change job and become a fro
 - VS Code
 
 ---
+
+## Education / Courses
+
+1. [Minsk State Linguistic University](https://www.mslu.by/en/)
+2. [IT-Academy](https://www.it-academy.by/)
+3. [RS School](https://rs.school/)
+
+---
+
+## Languages
+
+> English: Intermediate
+
+> Spanish: fluent
