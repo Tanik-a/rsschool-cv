@@ -42,3 +42,25 @@ I am a hardworking and motivated person who wants to change job and become a fro
 > English: Intermediate
 
 > Spanish: fluent
+
+---
+
+## Code example
+
+```
+function testCycle(a, b) {
+    var x;
+    x = " ";
+    if (a < b){
+        for (let i = a; i <= b; i = i + 1){
+        x = x + i + " ";
+        }
+    }else if (b < a){
+            for (let i = b; i<= a; i = i + 1){
+                x = x + i + " ";
+            }
+    }else x = a;
+    return x;
+}
+
+```
