@@ -9,48 +9,82 @@
   <title>CV</title>
 </head>
 <body>
-  <img src="assets/img/1.jpg" alt="cv-photo">
-  <h1>Tatiana Silkova</h1>
-  <p>Junior Front-End Developer</p>
-  <hr>
-  <h2>Contacts</h2>
-  Location: Minsk, Belarus
-  Phone: +375 (29) 380 57 56
-  Email: taniaalekseyuk@gmail.com
-  Discord: Tania(@Tanik-a)
-  <a href="https://github.com/Tanik-a">GitHub</a>
-  <hr>
-  <h2>About Me</h2>
-  <p>I am a hardworking and motivated person who wants to change job and become a front-end developer. I am a quick learner
-  and a good worker, a good communicator, responsible and self-disciplined person.</p>
-  <hr>
+  <header class="header">
+    <nav class="header__menu">
+      <ul class="header__list">
+        <li class="header__item"><a href="" class="header__link">About</a></li>
+        <li class="header__item"><a href="" class="header__link">Contacts</a></li>
+        <li class="header__item"><a href="" class="header__link">Education</a></li>
+        <li class="header__item"><a href="" class="header__link">Skills</a></li>
+      </ul>
+    </nav>
+    <img class="header__img" src="assets/img/1.jpg" alt="cv-photo">
+    <h1 class="header__title">Tatiana Silkova</h1>
+    <p class="header__subtitle">Junior Front-End Developer</p>
+  </header>
+  <main class="main">
+    <section class="section">
+      <h2>Contacts</h2>
+      <ul class="contacts__list">
+        <li class="contacts__item">Location: Minsk, Belarus</li>
+        <li class="contacts__item">Phone: +375 (29) 380 57 56</li>
+        <li class="contacts__item">Email: taniaalekseyuk@gmail.com</li>
+        <li class="contacts__item">Discord: Tania(@Tanik-a)</li>
+        <li class="contacts__item"><a href="https://github.com/Tanik-a">GitHub</a></li>
+      </ul>     
+    </section>
+    <section class="section">
+      <h2>About Me</h2>
+      <p>I am a hardworking and motivated person who wants to change job and become a front-end developer. I am a quick learner
+      and a good worker, a good communicator, responsible and self-disciplined person.</p>
+    </section>
+    <section class="section">
   <h2>Skills</h2>
-  <ul>
-    <li>HTML5, CSS3</li>
-    <li>JavaScript (basic)</li>
-    <li>Git, GitHub</li>
-    <li>VS Code</li>
-  </ul>
-  <hr>
+    <ul>
+      <li>HTML5, CSS3</li>
+      <li>JavaScript (basic)</li>
+      <li>Git, GitHub</li>
+      <li>VS Code</li>
+    </ul>
+  </section>
+  <section class="section">
   <h2>Education / Courses</h2>
-  <ol>
-    <li><a href="https://www.mslu.by/en/">Minsk State Linguistic University</a></li>
-    <li><a href="https://www.it-academy.by/">IT-Academy</a></li>
-    <li><a href="https://rs.school/">RS School</a></li>
-  </ol>
-  <hr>
-  <h2>Languages</h2>
-  <p>English: Intermediate</p>
-  <p>Spanish: fluent</p>
- <hr>
-  
-  <h2>Code example</h2>
- <code>
-  function testCycle(a, b) {
-  var x;
-  x = " ";
-  if (a < b){ for (let i=a; i <=b; i=i + 1){ x=x + i + " " ; } }else if (b < a){ for (let i=b; i<=a; i=i + 1){ x=x + i
-    + " " ; } }else x=a; return x; } 
-    </code>
+    <ol>
+      <li><a href="https://www.mslu.by/en/">Minsk State Linguistic University</a></li>
+      <li><a href="https://www.it-academy.by/">IT-Academy</a></li>
+      <li><a href="https://rs.school/">RS School</a></li>
+    </ol>
+  </section>
+  <section class="section">
+    <h2>Languages</h2>
+    <p>English: Intermediate</p>
+    <p>Spanish: fluent</p>
+  </section>
+  <section class="section">
+    <h2>Code example</h2>
+    <pre>
+      function testCycle(a, b) {
+        var x;
+        x = 0;
+        if (a < b){ 
+          for (let i = a; i <= b; i = i + 1){ 
+            x = x + i ** 2; 
+          } 
+        }else if (b < a){ 
+          for (let i = b; i <= a; i = i + 1){ 
+            x = x + i ** 2;
+          } 
+        }else x = a ** 2; 
+        return x; 
+      }
+
+    </pre>
+  </section>
+  </main>
+    <footer class="footer">
+
+
+    </footer>
+
 </body>
 </html>
