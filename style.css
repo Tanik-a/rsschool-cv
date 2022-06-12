@@ -26,7 +26,6 @@ a{
 .header{
   background-color: #6e9b9b;
   color: #fdfdfd;
- 
   padding: 10px 0 0;
 }
 
@@ -63,8 +62,7 @@ transition: all .5s ease;
 }
 .main{
   font-size: 18px;
-  line-height: 1.5;
- 
+  line-height: 1.5; 
 }
 .main-container{
   display: flex;
