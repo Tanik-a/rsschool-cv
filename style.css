@@ -10,10 +10,16 @@ body{
   justify-content: space-between;
   color: #2a1f1a;
 }
-/* img{
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.header__img{
   width: 200px;
-  height: 150px;
-} */
+  height: 155px;
+  border-radius: 50%;
+} 
 .footer{
   background-color: #6e9b9b;
   display: flex;
