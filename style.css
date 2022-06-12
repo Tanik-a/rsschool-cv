@@ -118,6 +118,9 @@ transition: all .5s ease;
 .main-bottom{
   display: flex;
 }
+.main-bottom section{
+  width: 50%;
+}
 
 .code{
   font-size: 10px;
