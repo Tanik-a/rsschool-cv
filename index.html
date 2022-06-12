@@ -17,6 +17,7 @@
           <li class="header__item"><a href="#contacts" class="header__link">Contacts</a></li>
           <li class="header__item"><a href="#education" class="header__link">Education</a></li>
           <li class="header__item"><a href="#skills" class="header__link">Skills</a></li>
+          <li class="header__item"><a href="#projects" class="header__link">Projects</a></li>
         </ul>
       </nav>
       <div class="header__inner">
@@ -29,73 +30,85 @@
     </div>
   </header>
   <main class="main">
-    <div class="container">
-    <section class="section" id="contacts">
-      <h2>Contacts</h2>
-      <ul class="contacts__list">
-        <li class="contacts__item">Location: Minsk, Belarus</li>
-        <li class="contacts__item">Phone: +375 (29) 380 57 56</li>
-        <li class="contacts__item">Email: taniaalekseyuk@gmail.com</li>
-        <li class="contacts__item">Discord: Tania(@Tanik-a)</li>
-        <li class="contacts__item"><a href="https://github.com/Tanik-a">GitHub</a></li>
-      </ul>     
-    </section>
-    <section class="section" id="about">
-      <h2>About Me</h2>
-      <p>I am a hardworking and motivated person who wants to change job and become a front-end developer. I am a quick learner
-      and a good worker, a good communicator, responsible and self-disciplined person.</p>
-    </section>
-    <section class="section" id="skills">
-  <h2>Skills</h2>
-    <ul>
-      <li>HTML5, CSS3</li>
-      <li>JavaScript (basic)</li>
-      <li>Git, GitHub</li>
-      <li>VS Code</li>
-    </ul>
-  </section>
-  <section class="section" id="education">
-  <h2>Education / Courses</h2>
-    <ol>
-      <li><a href="https://www.mslu.by/en/">Minsk State Linguistic University</a></li>
-      <li><a href="https://www.it-academy.by/">IT-Academy</a></li>
-      <li><a href="https://rs.school/">RS School</a></li>
-    </ol>
-  </section>
-  <section class="section">
-    <h2>Languages</h2>
-    <p>English: Intermediate</p>
-    <p>Spanish: fluent</p>
-  </section>
-  <section class="section">
-    <h2>Code example</h2>
-    <pre>
-      function testCycle(a, b) {
-        var x;
-        x = 0;
-        if (a < b){ 
-          for (let i = a; i <= b; i = i + 1){ 
-            x = x + i ** 2; 
-          } 
-        }else if (b < a){ 
-          for (let i = b; i <= a; i = i + 1){ 
-            x = x + i ** 2;
-          } 
-        }else x = a ** 2; 
-        return x; 
-      }
-
-    </pre>
-  </section>
-  </div>
+    <div class="container main-container">
+      <div class="left-part">
+        <section class="section" id="contacts">
+          <h2 class="section__title">Contacts</h2>
+          <ul class="contacts__list">
+            <li class="contacts__item"><span>Location:</span> Minsk, Belarus</li>
+            <li class="contacts__item"><span>Phone:</span> +375 (99) 999 99 99</li>
+            <li class="contacts__item"><span>Email:</span> taniaalekseyuk@gmail.com</li>
+            <li class="contacts__item"><span>Discord:</span> Tania(@Tanik-a)</li>
+            <li class="contacts__item"><a href="https://github.com/Tanik-a">GitHub</a></li>
+          </ul>     
+        </section>
+        <section class="section" id="skills">
+          <h2 class="section__title">Skills</h2>
+          <ul>
+            <li>HTML5, CSS3</li>
+            <li>JavaScript (basic)</li>
+            <li>Git, GitHub</li>
+            <li>VS Code</li>
+          </ul>
+        </section>
+      </div>
+      <div class="right-part">
+        <section class="section" id="about">
+          <h2 class="section__title">About Me</h2>
+          <p>I am a hardworking and motivated person who wants to change job and become a front-end developer. I am a quick learner
+          and a good worker, a good communicator, responsible and self-disciplined person.</p>
+        </section>  
+        <section class="section" id="education">
+          <h2 class="section__title">Education / Courses</h2>
+            <ul class="education__list">
+              <li class="education__item"><a class="education__link" href="https://www.mslu.by/en/">Minsk State Linguistic University</a></li>
+              <li class="education__item"><a class="education__link" href="https://www.it-academy.by/">IT-Academy</a></li>
+              <li class="education__item"><a class="education__link" href="https://rs.school/">RS School</a></li>
+            </ul>
+        </section>
+        <section class="section section-languages">
+          <h2 class="section__title">Languages</h2>
+          <p><span>English:</span> Intermediate</p>
+          <p><span>Spanish:</span> Fluent</p>
+        </section>
+        <div class="main-bottom">
+          <section class="section">
+            <h2 class="section__title">Code example</h2>
+            <pre class="code">
+              function testCycle(a, b) {
+                var x;
+                x = 0;
+                if (a < b){ 
+                  for (let i = a; i <= b; i = i + 1){ 
+                    x = x + i ** 2; 
+                  } 
+                }else if (b < a){ 
+                  for (let i = b; i <= a; i = i + 1){ 
+                    x = x + i ** 2;
+                  } 
+                }else x = a ** 2; 
+                return x; 
+              }
+            </pre>
+        </section>
+          <section class="section" id="projects">
+            <h2 class="section__title">Projects</h2>
+            <ul class="projects__list">
+              <li class="projects__item"><a class="projects__link" href="https://tanik-a.github.io/melody/">Melody</a></li>
+              <li class="projects__item"><a class="projects__link" href="https://tanik-a.github.io/Belarus_nyc/">Info page</a></li>
+              <li class="projects__item"><a class="projects__link" href="https://tanik-a.github.io/rsschool-cv/">CV</a></li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </div>
   </main>
-    <footer class="footer">
-      <div class="container">
+  <footer class="footer">
+    <div class="container">
       <a href="https://github.com/Tanik-a"><img class="footer__icon-github" src="assets/img/icon-github.png" alt="icon-github"></a>
       <span>2022</span>
       <a href="https://rs.school/js/"><img class="footer__icon-rss" src="assets/img/icon_rss.svg" alt="icon_rss"></a>
-      </div>
-    </footer>
-
+    </div>
+  </footer>
 </body>
 </html>
